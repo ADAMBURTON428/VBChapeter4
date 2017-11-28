@@ -33,14 +33,14 @@ Partial Class Form1
         Me.txtTime2 = New System.Windows.Forms.TextBox()
         Me.txtTime3 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.lblPlace3 = New System.Windows.Forms.Label()
+        Me.lblPlace2 = New System.Windows.Forms.Label()
         Me.lblPlace1 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.lblPlace2 = New System.Windows.Forms.Label()
-        Me.lblPlace3 = New System.Windows.Forms.Label()
         Me.btnCalculate = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
@@ -141,6 +141,22 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Race Results"
         '
+        'lblPlace3
+        '
+        Me.lblPlace3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblPlace3.Location = New System.Drawing.Point(71, 94)
+        Me.lblPlace3.Name = "lblPlace3"
+        Me.lblPlace3.Size = New System.Drawing.Size(102, 25)
+        Me.lblPlace3.TabIndex = 5
+        '
+        'lblPlace2
+        '
+        Me.lblPlace2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblPlace2.Location = New System.Drawing.Point(72, 60)
+        Me.lblPlace2.Name = "lblPlace2"
+        Me.lblPlace2.Size = New System.Drawing.Size(102, 25)
+        Me.lblPlace2.TabIndex = 4
+        '
         'lblPlace1
         '
         Me.lblPlace1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
@@ -193,22 +209,6 @@ Partial Class Form1
         Me.Label12.Size = New System.Drawing.Size(77, 26)
         Me.Label12.TabIndex = 12
         Me.Label12.Text = "Finishing Time " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(in seconds)"
-        '
-        'lblPlace2
-        '
-        Me.lblPlace2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblPlace2.Location = New System.Drawing.Point(72, 60)
-        Me.lblPlace2.Name = "lblPlace2"
-        Me.lblPlace2.Size = New System.Drawing.Size(102, 25)
-        Me.lblPlace2.TabIndex = 4
-        '
-        'lblPlace3
-        '
-        Me.lblPlace3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblPlace3.Location = New System.Drawing.Point(71, 94)
-        Me.lblPlace3.Name = "lblPlace3"
-        Me.lblPlace3.Size = New System.Drawing.Size(102, 25)
-        Me.lblPlace3.TabIndex = 5
         '
         'btnCalculate
         '
