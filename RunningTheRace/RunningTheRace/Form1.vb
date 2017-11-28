@@ -16,28 +16,31 @@
                 lblPlace2.Text = txtName3.Text
                 lblPlace3.Text = txtName2.Text
             End If
-            If dblTime2 < dblTime1 And dblTime2 < dblTime3 Then
-                lblPlace1.Text = (txtName2.Text)
-                If dblTime1 < dblTime3 Then
-                    lblPlace2.Text = txtName1.Text
-                    lblPlace2.Text = txtName3.Text
-                ElseIf dblTime3 < dblTime1 Then
-                    lblPlace2.Text = txtName3.Text
-                    lblPlace3.Text = txtName1.Text
-                End If
-            End If
-            If dblTime3 < dblTime1 And dblTime3 < dblTime2 Then
-                lblPlace1.Text = (txtName3.Text)
-                If dblTime1 < dblTime2 Then
-                    lblPlace2.Text = txtName1.Text
-                    lblPlace3.Text = txtName2.Text
-                ElseIf dblTime2 < dblTime1 Then
-                    lblPlace2.Text = txtName2.Text
-                    lblPlace3.Text = txtName1.Text
-                End If
-            End If
-
         End If
+
+
+        If dblTime2 < dblTime1 And dblTime2 < dblTime3 Then
+            lblPlace1.Text = (txtName2.Text)
+            If dblTime1 < dblTime3 Then
+                lblPlace2.Text = txtName1.Text
+                lblPlace2.Text = txtName3.Text
+            ElseIf dblTime3 < dblTime1 Then
+                lblPlace2.Text = txtName3.Text
+                lblPlace3.Text = txtName1.Text
+            End If
+        End If
+        If dblTime3 < dblTime1 And dblTime3 < dblTime2 Then
+            lblPlace1.Text = (txtName3.Text)
+            If dblTime1 < dblTime2 Then
+                lblPlace2.Text = txtName1.Text
+                lblPlace3.Text = txtName2.Text
+            ElseIf dblTime2 < dblTime1 Then
+                lblPlace2.Text = txtName2.Text
+                lblPlace3.Text = txtName1.Text
+            End If
+        End If
+
+
 
     End Sub
 
